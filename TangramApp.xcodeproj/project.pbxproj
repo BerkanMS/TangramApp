@@ -11,6 +11,12 @@
 		C816E3612A6FE3F000D4951E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C816E3602A6FE3F000D4951E /* ContentView.swift */; };
 		C816E3632A6FE3F100D4951E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C816E3622A6FE3F100D4951E /* Assets.xcassets */; };
 		C816E3662A6FE3F100D4951E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C816E3652A6FE3F100D4951E /* Preview Assets.xcassets */; };
+		C816E3792A6FE57C00D4951E /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C816E3782A6FE57C00D4951E /* ShapeView.swift */; };
+		C816E37B2A6FE58500D4951E /* TriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C816E37A2A6FE58500D4951E /* TriangleView.swift */; };
+		C816E37D2A6FE58B00D4951E /* ParallelogramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C816E37C2A6FE58A00D4951E /* ParallelogramView.swift */; };
+		C816E37F2A6FE59200D4951E /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C816E37E2A6FE59200D4951E /* SquareView.swift */; };
+		C816E3812A6FE59700D4951E /* ColorSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C816E3802A6FE59700D4951E /* ColorSelectionView.swift */; };
+		C816E3832A6FE59D00D4951E /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C816E3822A6FE59D00D4951E /* TimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		C816E3602A6FE3F000D4951E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C816E3622A6FE3F100D4951E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C816E3652A6FE3F100D4951E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C816E3782A6FE57C00D4951E /* ShapeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+		C816E37A2A6FE58500D4951E /* TriangleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleView.swift; sourceTree = "<group>"; };
+		C816E37C2A6FE58A00D4951E /* ParallelogramView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallelogramView.swift; sourceTree = "<group>"; };
+		C816E37E2A6FE59200D4951E /* SquareView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
+		C816E3802A6FE59700D4951E /* ColorSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSelectionView.swift; sourceTree = "<group>"; };
+		C816E3822A6FE59D00D4951E /* TimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				C816E35E2A6FE3F000D4951E /* TangramAppApp.swift */,
 				C816E3602A6FE3F000D4951E /* ContentView.swift */,
+				C816E3782A6FE57C00D4951E /* ShapeView.swift */,
+				C816E37A2A6FE58500D4951E /* TriangleView.swift */,
+				C816E37C2A6FE58A00D4951E /* ParallelogramView.swift */,
+				C816E37E2A6FE59200D4951E /* SquareView.swift */,
+				C816E3802A6FE59700D4951E /* ColorSelectionView.swift */,
+				C816E3822A6FE59D00D4951E /* TimerView.swift */,
 				C816E3622A6FE3F100D4951E /* Assets.xcassets */,
 				C816E3642A6FE3F100D4951E /* Preview Content */,
 			);
@@ -137,7 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C816E37D2A6FE58B00D4951E /* ParallelogramView.swift in Sources */,
+				C816E3792A6FE57C00D4951E /* ShapeView.swift in Sources */,
 				C816E3612A6FE3F000D4951E /* ContentView.swift in Sources */,
+				C816E37F2A6FE59200D4951E /* SquareView.swift in Sources */,
+				C816E37B2A6FE58500D4951E /* TriangleView.swift in Sources */,
+				C816E3812A6FE59700D4951E /* ColorSelectionView.swift in Sources */,
+				C816E3832A6FE59D00D4951E /* TimerView.swift in Sources */,
 				C816E35F2A6FE3F000D4951E /* TangramAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
